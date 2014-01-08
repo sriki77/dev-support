@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consumer>
+   <consumer_id>Path</consumer_id>
+   <c-attribute1 />
+   <c-attribute2 />
+   <c-attribute3 />
+   <apps>
+      <app>
+         <name><![CDATA[PathDotCom]]></name>
+         <apptype />
+         <description />
+         <api_group_names>
+            <api_group>
+               <name>SAPG1</name>
+               <key>3ddf9b48fde720e8c6d7d4b3ce04eccb</key>
+               <secret>7339194f78a16765</secret>
+               <status>true</status>
+               <labels>
+                  <label>
+                     <name><![CDATA[callbackURL]]></name>
+                     <value><![CDATA[https://partner-api.path.com/sdk/1/nike/token/register]]></value>
+                  </label>
+                  <label>
+                     <name><![CDATA[callbackType]]></name>
+                     <value><![CDATA[server]]></value>
+                  </label>
+                  <label>
+                     <name><![CDATA[nikeAppId]]></name>
+                     <value><![CDATA[PathDotCom]]></value>
+                  </label>
+                  <label>
+                     <name><![CDATA[nikeCommerceID]]></name>
+                     <value />
+                  </label>
+               </labels>
+            </api_group>
+         </api_group_names>
+         <access_type />
+      </app>
+   </apps>
+</consumer>
