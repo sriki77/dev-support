@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DebugSession>
+    <Retrieved>08-01-14 09:56:30:044</Retrieved>
+    <Organization>nikedev</Organization>
+    <Environment>ecn20</Environment>
+    <API>oauthproxy</API>
+    <Revision>7</Revision>
+    <SessionId>1389174892732</SessionId>
+    <Messages>
+        <Message>
+            <DebugId>eb3171cd-9479-46f8-8b8e-1eef60ab608b__38</DebugId>
+            <Data>
+                <Completed>true</Completed>
+                <Point id="Paused"/>
+                <Point id="Resumed"/>
+                <Point id="StateChange">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:980</Timestamp>
+                        <Properties>
+                            <Property name="To">REQ_HEADERS_PARSED</Property>
+                            <Property name="From">REQ_START</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content/>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Apigee.application">oauthproxy</Header>
+                            <Header name="X-Apigee.environment">ecn20</Header>
+                            <Header name="X-Apigee.organization">nikedev</Header>
+                            <Header name="X-Apigee.proxy">default</Header>
+                            <Header name="X-Apigee.revision">7</Header>
+                            <Header name="X-Apigee.vhost">default</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:980</Timestamp>
+                        <Properties>
+                            <Property name="environment.name">ecn20</Property>
+                            <Property name="environment.qualifiedname">nikedev__ecn20</Property>
+                            <Property name="environment.orgname">nikedev</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:980</Timestamp>
+                        <Properties>
+                            <Property name="organization.name">nikedev</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:980</Timestamp>
+                        <Properties>
+                            <Property name="virtualhost.port">80</Property>
+                            <Property name="virtualhost.name">default</Property>
+                            <Property name="virtualhost.ssl.enabled">false</Property>
+                            <Property name="virtualhost.aliases">
+                                {nikedev-ecn20.apigee.net,api-tie5.nike.com,nikedev-ecn20.apigee.net:80}
+                            </Property>
+                            <Property name="virtualhost.ip">192.168.36.35</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:981</Timestamp>
+                        <Properties>
+                            <Property name="apiproxy.qualifiedname">oauthproxy__7</Property>
+                            <Property name="apiproxy.basepath">/</Property>
+                            <Property name="apiproxy.revision">7</Property>
+                            <Property name="apiproxy.name">oauthproxy</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:981</Timestamp>
+                        <Properties>
+                            <Property name="proxy.basepath">/oauth20</Property>
+                            <Property name="proxy.pathsuffix">/accesstoken/generate</Property>
+                            <Property name="proxy.url">
+                                http://rrt012wo.us-wo.4.apigee.com/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=
+                            </Property>
+                            <Property name="proxy.name">default</Property>
+                            <Property name="proxy.client.ip">184.169.153.31</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="StateChange">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:985</Timestamp>
+                        <Properties>
+                            <Property name="To">PROXY_REQ_FLOW</Property>
+                            <Property name="From">REQ_HEADERS_PARSED</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content/>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                </Point>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:985</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">true</Property>
+                            <Property name="Expression">("default" equals proxy.name)</Property>
+                            <Property name="Tree">PROXY_default</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="proxy.name" value="default"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:985</Timestamp>
+                        <Properties>
+                            <Property name="proxy.flow.name">PreFlow</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:985</Timestamp>
+                        <Properties>
+                            <Property name="current.flow.name">PreFlow</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:986</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_flow_variables</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content/>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Set name="proxy_routeTo" success="true" value="null_target"/>
+                        <Set name="flow_developer_app" success="true" value="CB_Developer"/>
+                        <Set name="flow_service_name" success="true" value="OAuth20"/>
+                        <Set name="flow_operation_name" success="true" value="token"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:986</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">true</Property>
+                            <Property name="Expression">proxy.pathsuffix matches /accesstoken/generate</Property>
+                            <Property name="Tree">accessTokenGenerate_REQUEST_FLOW</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="proxy.pathsuffix" value="/accesstoken/generate"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:987</Timestamp>
+                        <Properties>
+                            <Property name="proxy.flow.name">accessTokenGenerate</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:987</Timestamp>
+                        <Properties>
+                            <Property name="current.flow.name">accessTokenGenerate</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:988</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">extractvariables</Property>
+                            <Property name="type">ExtractVariablesExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">ext_var_parse_accesstoken_payload</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content/>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Get name="cb"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:989</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_set_client_cred</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content>client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=</Content>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Get name="request.queryparam.client_id" value="09e6c6a1202de70ee5141be6a5eab3a7"/>
+                        <Set name="message.formparam.client_id" success="true"
+                             value="09e6c6a1202de70ee5141be6a5eab3a7"/>
+                        <Get name="request.queryparam.client_secret" value=""/>
+                        <Set name="message.formparam.client_secret" success="true" value=""/>
+                        <Get name="request.queryparam.password"/>
+                        <Set name="cb.password" success="true" value="nikedev"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:989</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">oauthV2</Property>
+                            <Property name="expression">((request.queryparam.client_secret equals null) or
+                                (request.queryparam.client_secret equals EMPTY))
+                            </Property>
+                            <Property name="type">OAuthStepExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">true</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">verify_apikey_client_key</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content>client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=</Content>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Get name="request.queryparam.client_id" value="09e6c6a1202de70ee5141be6a5eab3a7"/>
+                        <Set name="message.formparam.client_id" success="true"
+                             value="09e6c6a1202de70ee5141be6a5eab3a7"/>
+                        <Get name="request.queryparam.client_secret" value=""/>
+                        <Set name="message.formparam.client_secret" success="true" value=""/>
+                        <Get name="request.queryparam.password"/>
+                        <Set name="cb.password" success="true" value="nikedev"/>
+                        <Get name="request.queryparam.client_secret" value=""/>
+                        <Get name="request.queryparam.client_secret" value=""/>
+                        <Get name="EMPTY"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:990</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">((request.queryparam.client_secret equals null) or
+                                (request.queryparam.client_secret equals EMPTY))
+                            </Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_client_secret</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content>client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=</Content>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Get name="request.queryparam.client_secret" value=""/>
+                        <Get name="request.queryparam.client_secret" value=""/>
+                        <Get name="EMPTY"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:991</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">oauthV2</Property>
+                            <Property name="expression">(cb.grant_type equals "implicit")</Property>
+                            <Property name="type">OAuthStepExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">oauthv2_gen_implicit_accesstoken</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content>client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=</Content>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Get name="cb.grant_type" value="password"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:991</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">oauthV2</Property>
+                            <Property name="expression">(cb.grant_type equals "refresh_token")</Property>
+                            <Property name="type">OAuthStepExecution</Property>
+                            <Property name="enforcement">request</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">oauthv2_refresh_accesstoken</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <RequestMessage>
+                        <Content>client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=</Content>
+                        <Headers>
+                            <Header name="Accept-Encoding">gzip</Header>
+                            <Header name="Authorization">*****</Header>
+                            <Header name="Cache-Control">max-age=0</Header>
+                            <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+                            <Header name="Date">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Expires">Wed, 08 Jan 2014 09:55:03 GMT</Header>
+                            <Header name="Host">nikedev-ecn20.apigee.net:80</Header>
+                            <Header name="NikePlusId">227198c1-7ae6-4d47-a1ce-73ff416f9c95</Header>
+                            <Header name="Pragma">no-cache</Header>
+                            <Header name="Server">Apache</Header>
+                            <Header name="SERVICE_BUILD">1.14.1.24</Header>
+                            <Header name="SERVICE_VERSION">1.14.1</Header>
+                            <Header name="Set-Cookie">AnalysisUserId=165.254.47.169.1389174903811007; path=/;
+                                expires=Thu
+                            </Header>
+                            <Header name="UpmId">1811376</Header>
+                            <Header name="X-Swooshlet">app-profile-0 ecn47 sin-2-app-profile-0</Header>
+                        </Headers>
+                        <URI>/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token=</URI>
+                        <Verb>GET</Verb>
+                    </RequestMessage>
+                    <VariableAccess>
+                        <Get name="cb.grant_type" value="password"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Paused"/>
+                <Point id="FlowInfo">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:992</Timestamp>
+                        <Properties>
+                            <Property name="oauthV2.oauthv2_gen_accesstoken.failed">false</Property>
+                        </Properties>
+                    </DebugInfo>
+                </Point>
+                <Point id="StateChange">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:995</Timestamp>
+                        <Properties>
+                            <Property name="To">PROXY_RESP_FLOW</Property>
+                            <Property name="From">PROXY_REQ_FLOW</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers/>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:996</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">oauthV2</Property>
+                            <Property name="expression">((cb.grant_type not equals "implicit") and (cb.grant_type not
+                                equals "refresh_token"))
+                            </Property>
+                            <Property name="type">OAuthStepExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">true</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">oauthv2_gen_accesstoken</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers/>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="oauthV2.oauthv2_gen_accesstoken"/>
+                        <Get name="proxy.url"
+                             value="http://rrt012wo.us-wo.4.apigee.com/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token="/>
+                        <Get name="cb.grant_type" value="password"/>
+                        <Get name="cb.client_id" value="09e6c6a1202de70ee5141be6a5eab3a7"/>
+                        <Get name=""/>
+                        <Get name="cb.redirect_uri"/>
+                        <Get name="cb.user_attribute1" value="upmid:1811376, slCheck:,"/>
+                        <Get name="cb.user_attribute2" value="plusid:227198c1-7ae6-4d47-a1ce-73ff416f9c95, pinToken:,"/>
+                        <Get name="cb.user_attribute3" value="nikePlusCookie:,"/>
+                        <Get name="cb.userid" value="b8501f8:14370a23439:-2ccc"/>
+                        <Get name="cb.code"/>
+                        <Get name="cb.userid" value="b8501f8:14370a23439:-2ccc"/>
+                        <Get name="cb.password" value="nikedev"/>
+                        <Get name="oauth_external_authorization_status"/>
+                        <Get name="target.name"/>
+                        <Set name="oauthV2.failed" success="true" value="false"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Resumed"/>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:996</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">true</Property>
+                            <Property name="Expression">("default" equals proxy.name)</Property>
+                            <Property name="Tree">PROXY_default</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="proxy.name" value="default"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:996</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">true</Property>
+                            <Property name="Expression">proxy.pathsuffix matches /accesstoken/generate</Property>
+                            <Property name="Tree">accessTokenGenerate_RESPONSE_FLOW</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="proxy.pathsuffix" value="/accesstoken/generate"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:997</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">(response.status.code equals "302")</Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_set_response_code</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers/>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="response.status.code" value="401"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:997</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">((response.status.code equals "200") and (cb.grant_type equals
+                                "implicit"))
+                            </Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_implicittoken_response</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers/>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="response.status.code" value="401"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:997</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">((response.status.code equals "200") and (cb.grant_type equals
+                                "refresh_token"))
+                            </Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_refreshtoken_response</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers/>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="response.status.code" value="401"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:998</Timestamp>
+                        <Properties>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">((response.status.code equals "200") and ((cb.grant_type not
+                                equals "implicit") and (cb.grant_type not equals "refresh_token")))
+                            </Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_oauthv2token_response</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers/>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="response.status.code" value="401"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:03:999</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">(response.status.code not equals "200")</Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">true</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_set_contenttype</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers>
+                            <Header name="Content-Type">application/json</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Set name="response.header.Content-Type" success="true" value="application/json"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:000</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">extractvariables</Property>
+                            <Property name="expression">(response.status.code not equals "200")</Property>
+                            <Property name="type">ExtractVariablesExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">true</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">ext_var_auth_error</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>{"ErrorCode":"invalid_client","Error":"ClientId is Invalid"}</Content>
+                        <Headers>
+                            <Header name="Content-Type">application/json</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="response.content"
+                             value="{&quot;ErrorCode&quot; : &quot;invalid_client&quot;, &quot;Error&quot; :&quot;ClientId is Invalid&quot;}"/>
+                        <Set name="error_message" success="true" value="ClientId is Invalid"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:000</Timestamp>
+                        <Properties>
+                            <Property name="action">CONTINUE</Property>
+                            <Property name="stepDefinition-async">false</Property>
+                            <Property name="internal">false</Property>
+                            <Property name="stepDefinition-type">assignmessage</Property>
+                            <Property name="expression">(response.status.code not equals "200")</Property>
+                            <Property name="type">AssignMessageExecution</Property>
+                            <Property name="enforcement">response</Property>
+                            <Property name="stepDefinition-continueOnError">false</Property>
+                            <Property name="expressionResult">true</Property>
+                            <Property name="stepDefinition-displayName">-NA-</Property>
+                            <Property name="stepDefinition-name">assign_msg_error_response</Property>
+                            <Property name="stepDefinition-enabled">true</Property>
+                            <Property name="result">true</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>&lt;OAuth20&gt;&lt;access_token&gt;&lt;error&gt;&lt;message&gt;ClientId is Invalid&lt;/message&gt;
+                            &lt;/error&gt;
+                            &lt;/access_token&gt;
+                            &lt;/OAuth20&gt;
+                        </Content>
+                        <Headers>
+                            <Header name="Content-Type">application/xml</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="response.status.code" value="401"/>
+                        <Get name="error_message" value="ClientId is Invalid"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="StateChange">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:001</Timestamp>
+                        <Properties>
+                            <Property name="To">RESP_SENT</Property>
+                            <Property name="From">PROXY_RESP_FLOW</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>&lt;OAuth20&gt;&lt;access_token&gt;&lt;error&gt;&lt;message&gt;ClientId is Invalid&lt;/message&gt;
+                            &lt;/error&gt;
+                            &lt;/access_token&gt;
+                            &lt;/OAuth20&gt;
+                        </Content>
+                        <Headers>
+                            <Header name="Content-Type">application/xml</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                </Point>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:001</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">true</Property>
+                            <Property name="Expression">("default" equals proxy.name)</Property>
+                            <Property name="Tree">PROXY_default</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="proxy.name" value="default"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:001</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">false</Property>
+                            <Property name="Expression">("default" equals target.name)</Property>
+                            <Property name="Tree">TARGET_default</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="target.name"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Condition">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:001</Timestamp>
+                        <Properties>
+                            <Property name="ExpressionResult">false</Property>
+                            <Property name="Expression">("auth-code-delete" equals target.name)</Property>
+                            <Property name="Tree">TARGET_auth-code-delete</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <VariableAccess>
+                        <Get name="target.name"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:002</Timestamp>
+                        <Properties>
+                            <Property name="expressionResult">true</Property>
+                            <Property name="type">AnalyticsPredefinedVariablesPublisher</Property>
+                            <Property name="expression">(analytics equals null )</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>&lt;OAuth20&gt;&lt;access_token&gt;&lt;error&gt;&lt;message&gt;ClientId is Invalid&lt;/message&gt;
+                            &lt;/error&gt;
+                            &lt;/access_token&gt;
+                            &lt;/OAuth20&gt;
+                        </Content>
+                        <Headers>
+                            <Header name="Content-Type">application/xml</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="organization.name" value="nikedev"/>
+                        <Get name="environment.name" value="ecn20"/>
+                        <Get name="apiproxy.name" value="oauthproxy"/>
+                        <Get name="apiproxy.revision" value="7"/>
+                        <Get name="proxy.name" value="default"/>
+                        <Get name="proxy.basepath" value="/oauth20"/>
+                        <Get name="proxy.pathsuffix" value="/accesstoken/generate"/>
+                        <Get name="request.header.X-Forwarded-For"/>
+                        <Get name="proxy.client.ip" value="184.169.153.31"/>
+                        <Get name="target.name"/>
+                        <Get name="target.basepath"/>
+                        <Get name="target.url"/>
+                        <Get name="target.ip"/>
+                        <Get name="client.ip" value="184.169.153.31"/>
+                        <Get name="is.error" value="false"/>
+                        <Get name="target.sent.start.timestamp"/>
+                        <Get name="target.sent.end.timestamp"/>
+                        <Get name="target.received.start.timestamp"/>
+                        <Get name="target.received.end.timestamp"/>
+                        <Get name="client.received.start.timestamp" value="1389174903978"/>
+                        <Get name="client.received.end.timestamp" value="1389174903979"/>
+                        <Get name="message.status.code" value="401"/>
+                        <Get name="request.uri"
+                             value="/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token="/>
+                        <Get name="request.path" value="/oauth20/accesstoken/generate"/>
+                        <Get name="request.verb" value="GET"/>
+                        <Get name="virtualhost.name" value="default"/>
+                        <Get name="apigee.developer.app.name"/>
+                        <Get name="apigee.apiproduct.name"/>
+                        <Get name="apigee.access_token"/>
+                        <Get name="apigee.client_id"/>
+                        <Get name="flow.resource.name"/>
+                        <Get name="gateway.flow.id"/>
+                        <Get name="sla"/>
+                        <Get name="client.received.content.length" value="0"/>
+                        <Get name="target.received.content.length"/>
+                        <Get name="cachehit"/>
+                        <Get name="apigee.developer.id"/>
+                        <Get name="target.response.status.code"/>
+                        <Get name="request.header.X-Forwarded-For"/>
+                        <Get name="apigee.developer.email"/>
+                        <Get name="request.header.User-Agent"/>
+                        <Get name="organization.name" value="nikedev"/>
+                        <Get name="environment.name" value="ecn20"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="Execution">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:002</Timestamp>
+                        <Properties>
+                            <Property name="expressionResult">false</Property>
+                            <Property name="type">AnalyticsPublisher</Property>
+                            <Property name="expression">(analytics not null)</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>&lt;OAuth20&gt;&lt;access_token&gt;&lt;error&gt;&lt;message&gt;ClientId is Invalid&lt;/message&gt;
+                            &lt;/error&gt;
+                            &lt;/access_token&gt;
+                            &lt;/OAuth20&gt;
+                        </Content>
+                        <Headers>
+                            <Header name="Content-Type">application/xml</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                    <VariableAccess>
+                        <Get name="organization.name" value="nikedev"/>
+                        <Get name="environment.name" value="ecn20"/>
+                        <Get name="apiproxy.name" value="oauthproxy"/>
+                        <Get name="apiproxy.revision" value="7"/>
+                        <Get name="proxy.name" value="default"/>
+                        <Get name="proxy.basepath" value="/oauth20"/>
+                        <Get name="proxy.pathsuffix" value="/accesstoken/generate"/>
+                        <Get name="request.header.X-Forwarded-For"/>
+                        <Get name="proxy.client.ip" value="184.169.153.31"/>
+                        <Get name="target.name"/>
+                        <Get name="target.basepath"/>
+                        <Get name="target.url"/>
+                        <Get name="target.ip"/>
+                        <Get name="client.ip" value="184.169.153.31"/>
+                        <Get name="is.error" value="false"/>
+                        <Get name="target.sent.start.timestamp"/>
+                        <Get name="target.sent.end.timestamp"/>
+                        <Get name="target.received.start.timestamp"/>
+                        <Get name="target.received.end.timestamp"/>
+                        <Get name="client.received.start.timestamp" value="1389174903978"/>
+                        <Get name="client.received.end.timestamp" value="1389174903979"/>
+                        <Get name="message.status.code" value="401"/>
+                        <Get name="request.uri"
+                             value="/oauth20/accesstoken/generate?userid=b8501f8%3A14370a23439%3A-2ccc&amp;userid=&amp;client_id=09e6c6a1202de70ee5141be6a5eab3a7&amp;client_secret=&amp;grant_type=password&amp;user_attribute1=upmid%3A1811376%2C%20slCheck%3A%2C&amp;user_attribute2=plusid%3A227198c1-7ae6-4d47-a1ce-73ff416f9c95%2C%20pinToken%3A%2C&amp;user_attribute3=nikePlusCookie%3A%2C&amp;refresh_token="/>
+                        <Get name="request.path" value="/oauth20/accesstoken/generate"/>
+                        <Get name="request.verb" value="GET"/>
+                        <Get name="virtualhost.name" value="default"/>
+                        <Get name="apigee.developer.app.name"/>
+                        <Get name="apigee.apiproduct.name"/>
+                        <Get name="apigee.access_token"/>
+                        <Get name="apigee.client_id"/>
+                        <Get name="flow.resource.name"/>
+                        <Get name="gateway.flow.id"/>
+                        <Get name="sla"/>
+                        <Get name="client.received.content.length" value="0"/>
+                        <Get name="target.received.content.length"/>
+                        <Get name="cachehit"/>
+                        <Get name="apigee.developer.id"/>
+                        <Get name="target.response.status.code"/>
+                        <Get name="request.header.X-Forwarded-For"/>
+                        <Get name="apigee.developer.email"/>
+                        <Get name="request.header.User-Agent"/>
+                        <Get name="organization.name" value="nikedev"/>
+                        <Get name="environment.name" value="ecn20"/>
+                        <Get name="analytics"/>
+                    </VariableAccess>
+                </Point>
+                <Point id="StateChange">
+                    <DebugInfo>
+                        <Timestamp>08-01-14 09:55:04:003</Timestamp>
+                        <Properties>
+                            <Property name="To">END</Property>
+                            <Property name="From">RESP_SENT</Property>
+                        </Properties>
+                    </DebugInfo>
+                    <ResponseMessage>
+                        <Content>&lt;OAuth20&gt;&lt;access_token&gt;&lt;error&gt;&lt;message&gt;ClientId is Invalid&lt;/message&gt;
+                            &lt;/error&gt;
+                            &lt;/access_token&gt;
+                            &lt;/OAuth20&gt;
+                        </Content>
+                        <Headers>
+                            <Header name="Content-Type">application/xml</Header>
+                        </Headers>
+                        <ReasonPhrase>Unauthorized</ReasonPhrase>
+                        <StatusCode>401</StatusCode>
+                    </ResponseMessage>
+                </Point>
+            </Data>
+        </Message>
+    </Messages>
+</DebugSession>
